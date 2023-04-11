@@ -1,0 +1,58 @@
+<div class="page-three">
+    <div class="row steps">
+        <div class="step step-one">
+
+        </div>
+        <div class="step step-completed">
+
+        </div>
+        <div class="step step-active">
+
+        </div>
+        <div class="step">
+
+        </div>
+        <div class="step">
+
+        </div>
+
+    </div>
+    <div class="row">
+        <p class="step-count">3 of 5</p>
+        <p class="page-section-title">
+            What is your favorite movie?</p>
+        <p class="page-sub-section-title">
+            (If you have more than one favorite movie, select <strong>Add Favorite Movie </strong> to enter its details.
+            )
+        </p>
+    </div>
+    <div class="row step-one-qns">
+        <div class="col-4">
+            <div class="row">
+                <label class="lebel-title" for="typeahead-basic">Title</label>
+                <input type="text" class="form-control input-control" placeholder="RoboCop" />
+
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+        <div class="col-4" style="margin-left: 30px;">
+            <div class="row">
+                <label class="lebel-title" for="typeahead-basic">Year of Release</label>
+                <input type="text" class="form-control input-control" placeholder="1987 not 2014, you monster" />
+            </div>
+        </div>
+
+    </div>
+    <div class="row bottom-section">
+        <div class="col link" (click)="onPreviousStep()">
+            <p>← Previous Question</p>
+        </div>
+        <div class="col">
+            <div class="button large-button" (click)="onNextStep()">
+                Next
+            </div>
+        </div>
+    </div>
+</div>

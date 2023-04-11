@@ -1,0 +1,9 @@
+@import "../../app.component.scss"; // Already imported in App, but we need variables from Layout
+nav {
+  height: 144px;
+  background-color: $header-background-color;
+  border-bottom: 4px solid $footer-grey;
+}
+.navbar-brand {
+  margin-left: 80px;
+}

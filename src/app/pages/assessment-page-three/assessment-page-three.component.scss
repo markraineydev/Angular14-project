@@ -1,0 +1,97 @@
+@import "../../app.component.scss";
+
+.page-three {
+  padding-top: 200px;
+  background-color: $page-background;
+  height: calc(100vh);
+}
+.steps {
+  font-family: arial;
+  font-size: 24px;
+  margin: 0px;
+  width: 100%;
+  margin-left: 25%;
+}
+.step {
+  float: left;
+  width: 190px;
+  height: 10px;
+  background-color: $step-inactive;
+  margin-left: 5px;
+}
+.step-one {
+  background-color: $step-active;
+  height: 10px;
+  width: 190px;
+  border-radius: 6px 0px 0px 6px !important;
+}
+.step-completed {
+    background-color: $step-active;
+  }
+.step-active {
+  background-color: $step-active;
+}
+.step-count {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: $step-text-color;
+  padding-top: 12px;
+  margin-left: 25%;
+}
+.page-section-title {
+  margin-left: 25%;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: $step-text-color;
+}
+.page-sub-section-title {
+  margin-left: 25%;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $step-text-color;
+}
+.step-one-qns {
+  margin-left: 25%;
+}
+.step-one-qns .row {
+  margin-top: 30px;
+}
+.page-three .link {
+  margin-left: 25%;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2px;
+  color: $link-color;
+  cursor: pointer;
+  margin-top: 92px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 241px;
+  height: 56px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 92px;
+}
+.bottom-section {
+  margin-top: 200px;
+}

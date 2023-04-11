@@ -1,0 +1,70 @@
+<div class="page-five">
+    <div class="row steps">
+        <div class="step step-one">
+
+        </div>
+        <div class="step step-completed">
+
+        </div>
+        <div class="step step-completed">
+
+        </div>
+        <div class="step step-completed">
+
+        </div>
+        <div class="step step-active">
+
+        </div>
+
+    </div>
+    <div class="row">
+        <p class="step-count">5 of 5</p>
+        <p class="page-section-title">
+            What is Jerry Seinfeld’s address in Seinfeld?</p>
+        <p class="page-sub-section-title">
+            Address
+        </p>
+    </div>
+    <div class="row step-one-qns">
+        <div class="col-4">
+            <div class="row">
+                <label class="lebel-title" for="typeahead-basic">Address 1</label>
+                <input type="text" class="form-control input-control" placeholder="Address 1" />
+
+            </div>
+            <div class="row">
+                <label class="lebel-title" for="typeahead-basic">Address 2</label>
+                <input type="text" class="form-control input-control" placeholder="Address 2" />
+
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <label class="lebel-title" for="typeahead-basic">City</label>
+                    <input type="text" class="form-control input-control" placeholder="City" />
+
+                </div>
+                <div class="col-3">
+                    <label class="lebel-title" for="typeahead-basic">State</label>
+                    <input type="text" class="form-control input-control" placeholder="State" />
+
+                </div>
+                <div class="col-4">
+                    <label class="lebel-title" for="typeahead-basic">Zip Code</label>
+                    <input type="text" class="form-control input-control" placeholder="Zip Code" />
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="row bottom-section">
+        <div class="col link" (click)="onPreviousStep()">
+            <p>← Previous Question</p>
+        </div>
+        <div class="col">
+            <div class="button large-button" (click)="onNextStep()">
+                Next
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Sofia Pro";
+  src: url("../assets/fonts/sofiapro-light.otf");
+}
+
+$header-background-color: #ffffff;
+$footer-background-color: #ffffff;
+$footer-grey: #eaecf0;
+$background: #ffffff;
+$button-background: #ffd744;
+$text-color: #2c2c2c;
+$step-text-color: #363636;
+$page-background: #fdf9f2;
+$step-active: #00ab8d;
+$step-completed: #00ab8d;
+$step-inactive: #d9d9d9;
+$link-color: #22549f;
+$input-border: #868686;
+$banner-page-background: #fcf9f2;
+
+.large-button {
+  width: 53px;
+  height: 32px;
+  background: $button-background;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $text-color;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.large-button:hover {
+  background-color: $background;
+  border-color: #2c2c2c;
+  border-style: solid;
+}
+.lebel-title {
+  width: 100%;
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: $step-text-color;
+}
+.input-control {
+  background: $background;
+  border: 1.5px solid $input-border;
+  border-radius: 4px;
+}
